@@ -4,6 +4,7 @@
 
 body{
   background-color: #8bacce;
+  overflow-x: hidden;
 }
 
 article{
@@ -53,9 +54,10 @@ button{
 
 .followread{
   text-align: center;
+  transition: transform 2s;
 }
 
-.followread:hover{
+article:hover .followread{
   text-decoration: underline;
   transform: scale(1.2);
 }
